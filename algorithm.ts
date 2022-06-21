@@ -189,5 +189,6 @@ async function getRoute(
     ({ fromToken, seg } = m.get(fromToken)!);
   } while (fromToken !== inToken);
   return { segments, outAmount };
+    
 }
 
