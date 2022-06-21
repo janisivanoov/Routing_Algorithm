@@ -29,6 +29,7 @@ Object.entries(_pairs).forEach(([address, _pair]) => {
     reserve0: new BN(_pair.reserve0),
     reserve1: new BN(_pair.reserve1),
   };
+  
   if (_pair.fee) pair.fee = new BN(_pair.fee);
   if (_pair.token0) {
     pair.token0 = _pair.token0;
