@@ -109,6 +109,7 @@ function getAmountOutPair(amountIn: BN, tokenIn: string, pair: Pair) {
   return getAmountOut(amountIn, reserve0, reserve1);
 }
 
+
 // function that, given input and output tokens, returns pairs, parts and output amount
 function f(amountIn: BN, fromToken: string, toToken: string) {
   // how to sort?
