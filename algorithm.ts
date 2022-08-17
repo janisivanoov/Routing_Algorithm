@@ -62,6 +62,7 @@ pairs.forEach((pair) => {
 // m.forEach((t) => console.log(t.join("=>")));
 
 // get number of tokens, connected to token
+
 let t = new Map<string, Set<string>>();
 pairs.forEach((pair) => {
   if (!pair.token0 || !pair.token1) return;
