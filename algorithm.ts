@@ -117,6 +117,7 @@ function f(amountIn: BN, fromToken: string, toToken: string) {
       getAmountOutPair(amountIn, fromToken, a)
     )
   );
+  
   let { reserve0: a1, reserve1: b1 } = pairs[0];
   if (rev) {
     [a1, b1] = [b1, a1];
