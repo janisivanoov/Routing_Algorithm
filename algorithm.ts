@@ -110,7 +110,6 @@ function getAmountOutPair(amountIn: BN, tokenIn: string, pair: Pair) {
 
 // function that, given input and output tokens, returns pairs, parts and output amount
 function f(amountIn: BN, fromToken: string, toToken: string) {
-  // how to sort?
   let pairs = getPairs(fromToken, toToken);
   let rev = pairs[0].token0 !== fromToken;
   pairs.sort((a, b) =>
