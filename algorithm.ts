@@ -81,7 +81,6 @@ function getPairs(tokenA: string, tokenB: string): Pair[] {
 
 // 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
 // 0x55d398326f99059fF775485246999027B3197955
-
 function isqrt(s: BN): BN {
   let x0 = s.divn(2);
   if (x0.eqn(0)) return new BN(0);
