@@ -36,7 +36,6 @@ Object.entries(_pairs).forEach(([address, _pair]) => {
   pairs.set(address, pair);
 });
 
-
 function pairKey(tokenA: string, tokenB: string): string {
   return tokenA < tokenB ? tokenA + "," + tokenB : tokenB + "," + tokenA;
 }
