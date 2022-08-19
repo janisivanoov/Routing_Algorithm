@@ -19,7 +19,6 @@ type Pair = {
 };
 
 let pairs = new Map<string, Pair>();
-
 let cnt = fs.readFileSync("../../_pairs.json", { encoding: "utf-8" });
 let _pairs: { [a: string]: Pair } = JSON.parse(cnt);
 
