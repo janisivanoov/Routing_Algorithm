@@ -1,5 +1,6 @@
 import fs from "fs";
 import BN from "bn.js";
+
 type RawPair = {
   reserve0: string;
   reserve1: string;
@@ -7,6 +8,7 @@ type RawPair = {
   token0?: string;
   token1?: string;
 };
+
 type Pair = {
   address: string;
   reserve0: BN;
