@@ -8,7 +8,6 @@ type RawPair = {
   token0?: string;
   token1?: string;
 };
-
 type Pair = {
   address: string;
   reserve0: BN;
