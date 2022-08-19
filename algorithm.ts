@@ -61,7 +61,6 @@ pairs.forEach((pair) => {
 // m.sort((a, b) => b[1] - a[1]);
 // m.forEach((t) => console.log(t.join("=>")));
 
-
 // get number of tokens, connected to token
 
 let t = new Map<string, Set<string>>();
