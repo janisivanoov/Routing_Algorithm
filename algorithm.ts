@@ -53,12 +53,12 @@ pairs.forEach((pair) => {
   _pairs.push(pair);
 });
 
-// let m: [string, number][] = [];
-// pairMap.forEach((pairs, key) => {
-//   m.push([key, pairs.length]);
-// });
-// m.sort((a, b) => b[1] - a[1]);
-// m.forEach((t) => console.log(t.join("=>")));
+let m: [string, number][] = [];
+pairMap.forEach((pairs, key) => {
+  m.push([key, pairs.length]);
+});
+m.sort((a, b) => b[1] - a[1]);
+m.forEach((t) => console.log(t.join("=>")));
 
 // get number of tokens, connected to token
 let t = new Map<string, Set<string>>();
